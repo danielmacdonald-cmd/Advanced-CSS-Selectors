@@ -17,3 +17,11 @@ th {
 }
 
 /* Add styles here */
+
+.container:first-child::first-line{
+  color: red;
+}
+
+a{
+  color: orange;
+}
