@@ -18,6 +18,10 @@ th {
 
 /* Add styles here */
 
+.container p:nth-child(1){
+  font-size: 25px;
+}
+
 .container:first-child::first-line{
   color: red;
 }
@@ -25,3 +29,9 @@ th {
 a{
   color: orange;
 }
+
+tr:nth-child(even){
+  background-color: #333333;
+  color: white;
+}
+
