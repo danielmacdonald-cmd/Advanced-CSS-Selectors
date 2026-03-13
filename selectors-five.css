@@ -22,3 +22,12 @@ a {
 }
 
 /* Add styles here */
+
+a[title]{
+  border-color: pink;
+}
+
+a{
+  border-color: orange;
+}
+
